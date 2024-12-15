@@ -60,6 +60,7 @@ EcoSphere is a platform designed to help users adopt sustainable living practice
 - **Responsive Design:**
   
     ![image](https://github.com/user-attachments/assets/47b4c150-a86e-4b78-8e7f-9e45f275c251)
+    ![image](https://github.com/user-attachments/assets/7175f71f-14b1-47ac-899f-a224d8c67c68)
     ![image](https://github.com/user-attachments/assets/312212aa-62fa-478f-b022-11b456c9797c)
     ![image](https://github.com/user-attachments/assets/df2fb0ac-73d8-4de5-8e79-e602f3f809ab)
 
