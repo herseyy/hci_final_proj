@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EcoSphere</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#"><span style="color: white"><u><strong>ecoSphere</strong></u></span></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contact</a>
+                </li>
+                <li class="login nav-item">
+                    <a class="nav-link" href="sign-login.html">Sign In</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+          </nav>
+    </header>
+
+    <section>
+        <button class="sticky-button" id="mainButton">
+            <i class="fas fa-plus"></i>
+        </button>
+
+        <div class="button-menu" id="buttonMenu">
+            <div class="toggle-container">
+                <span>Dark Mode:</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="box">
+                <div class="range">
+                    <i class="fa fa-sun" aria-hidden="true"></i>
+                    <input type="range" id="bright" min="0" max="200" value="100">
+                    <span id="bright-span">100%</span>
+                </div>
+            </div>
+             <div class="box">
+                <div class="range">
+                    <i class="fa fa-adjust" aria-hidden="true"></i>
+                    <input type="range" id="contrast" min="0" max="200" value="100">
+                    <span id="contrast-span">100%</span>
+                </div>
+            </div>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+
+
+    <!-- Hero section -->
+    <section id="hero" class="adjustSection">
+        <div class="container">
+            <div class="row main-hero-content">
+                    <div class="col-md-6">
+                        <h1>Your Gateway to Sustainable Living</h1>
+                        <p>EcoSphere is a platform that promotes sustainable living by offering resources, tools, and a community dedicated to eco-friendly practices. From educating users about reducing their carbon footprint to connecting them with environmentally conscious products.</p>
+                        <div class="hero-buttons">
+                            <a href="sign-login.html" class="btn btn-outline-primary btn-white">Join Now</a>
+                            <a href="#about" class="btn btn-outline-primary btn-white">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="adjustSection">
+
+        <div class="container">
+
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">about ecosphere</h2>
+            </div>
+
+            <div class="row justify-content-center text-center mt-5">
+
+                <div class="col-md-4">
+                    <i class="fas fa-recycle fa-3x mb-2"></i>
+                    <h3>Sustainable Living Made Simple</h3>
+                    <p>EcoSphere is your ultimate guide to adopting eco-friendly practices, with resources and tools to make sustainability easy and achievable.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-shopping-bag fa-3x mb-2"></i>
+                    <h3>Eco-Friendly Marketplace</h3>
+                    <p>Discover curated products and brands committed to reducing environmental impact, offering sustainable alternatives for your daily needs.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-warehouse fa-3x mb-2"></i>
+                    <h3>Community and Impact</h3>
+                    <p>Join a passionate community, participate in challenges, and see how your actions contribute to a healthier planet.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Feature section -->
+    <section id="features" class="adjustSection">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">features</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <img src="assets/img/com.png" alt="">
+                        <h3 class="text-center">Accessible Eco-Learning Hub</h3>
+                        <p>Empowering you with knowledge and tools to lead a sustainable lifestyle. Access a world of eco-friendly resources, right at your fingertips.</p>
+                    </div>
+                    <div class="feature-block mt-5">
+                        <img src="assets/img/lock.png" alt="">
+                        <h3 class="text-center">Privacy and Security</h3>
+                        <p>Your data, your trust—secured. Join a safe and ethical community dedicated to making a positive impact on the planet.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 device">
+                    <img src="assets/img/globe.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <img src="assets/img/community.png" alt="">
+                        <h3 class="text-center">Community Forums</h3>
+                        <p>Join discussions, share experiences, and connect with like-minded individuals passionate about sustainability.</p>
+                    </div>
+                    <div class="feature-block mt-5">
+                        <img src="assets/img/heart.png" alt="">
+                        <h3 class="text-center">Challenges and Rewards</h3>
+                        <p>Participate in eco-challenges, such as "Plastic-Free Month" or "Plant-a-Tree Week," and earn badges, discounts, and recognition for your efforts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download section -->
+    <section id="download" class="adjustSection">
+        <div class="container">
+                <div class="row download-title justify-content-center">
+                    <h2>download the app now</h2>
+                    <p>Download the EcoSphere app to access sustainability resources and tools anytime, anywhere, making eco-friendly living easy. Track your progress with personalized insights and participate in exclusive eco-challenges. Stay connected with a global community, discover sustainable products, and make a positive impact on the planet.</p>
+                    <div class="download-btns">
+                        <a href="#"><i class="fab fa-apple"></i> App Store</a>
+                        <a href="#"><i class="fab fa-android"></i> Play Store</a>
+                    </div>
+                </div>
+        </div>
+    </section> 
+    
+    
+    <!-- Pricing section -->
+    <section id="pricing" class="adjustSection">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">Subscription Plans</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md pricing-table">
+                    <div class="table-header text-center">
+                        <h4>Bronze Plan</h4>
+                        <p>$5.00/month</p>
+                    </div>
+                    <div class="table-content">
+                        <ul>
+                            <li>Access to basic guides</li>
+                            <li>Monthly eco-tips</li>
+                            <li>EcoSphere newsletter</li>
+                            <li>Exclusive member discounts</li>
+                        </ul>
+                    </div>
+                    <div class="table-footer text-center">
+                        <a href="#">subscribe now</a>
+                    </div>
+                </div>
+                <div class="col-md pricing-table">
+                    <div class="table-header text-center">
+                        <h4>Silver Plan</h4>
+                        <p>$15.00/month</p>
+                        <img src="assets/img/sale-badge.png" alt="">
+                    </div>
+                    <div class="table-content">
+                        <ul>
+                            <li>All Bronze Plan benefits</li>
+                            <li>Premium articles</li>
+                            <li>Participate in challenges</li>
+                            <li>Early access to new features</li>
+                        </ul>
+                    </div>
+                    <div class="table-footer text-center">
+                        <a href="#">subscribe now</a>
+                    </div>
+                </div>
+                <div class="col-md pricing-table">
+                    <div class="table-header text-center">
+                        <h4>Gold Plan</h4>
+                        <p>$30.00/month</p>
+                    </div>
+                    <div class="table-content">
+                        <ul>
+                            <li>All Silver Plan benefits</li>
+                            <li>Eco-coaching sessions</li>
+                            <li>Discounts on products</li>
+                            <li>VIP event access</li>
+                        </ul>
+                    </div>
+                    <div class="table-footer text-center">
+                        <a href="#">order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- Contact section -->
+    <section id="contact" class="adjustSection">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">Contact Us</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input id="name" type="text" class="form-control" placeholder="Enter your name">
+                                </div>
+                                <div class="col">
+                                    <input id="email" type="email" class="form-control" placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="form-group mt-4">
+                                <textarea id="msg" class="form-control" rows="10" placeholder="Enter your message"></textarea>
+                            </div>
+                            <p id="errSend"></p>
+                            <button id="send" class="btn btn-contact mt-4">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-text col-md-4">
+                    <div class="address">
+                        <h3>Where to Find Us?</h3>
+                        <p>Golden Country Homes, Alangilan, Batangas City, Batangas</p>
+                    </div>
+                    <div class="contact-details">
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-mobile-alt"></i></span>+1 222 333 444</li>
+                            <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>781 Highway 187 Rd, TY, 75933</li>
+                            <li><span class="fa-li"><i class="fas fa-paper-plane"></i></span>ecosphere@ecosphere.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" id="popup">
+                <i class="fas fa-check-circle"></i>
+                <h2>Thank you for reaching out!</h2>
+                <p>Your message has been sent</p>
+                <button onclick="removePopup()">Done</button>
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- Footer section -->
+    <footer id="footer" class="adjustSection">
+        <div class="container">
+            <div class="row d-flex flex-column align-items-center">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="footer-logo">
+                    <span style="color: white"><u><strong>ecoSphere</strong></u></span>
+                </div>
+                <div class="year text-center">
+                    <p>2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    <script src="assets/js/custom.js" ></script>   
+</body>
+</html>
