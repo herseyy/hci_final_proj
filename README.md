@@ -72,8 +72,8 @@ EcoSphere is a platform designed to help users adopt sustainable living practice
 
 
 ## Demo
-- **Video:** https://herseyy.github.io/hci_final_proj/index.html
-- **Live:** https://drive.google.com/drive/folders/1VevbMq5EhwRcivjo9kSRYshYeiSSKIIi
+- **Live:** https://herseyy.github.io/hci_final_proj/index.html
+- **Video:** https://drive.google.com/drive/folders/1VevbMq5EhwRcivjo9kSRYshYeiSSKIIi
 
 
 ## Developer
