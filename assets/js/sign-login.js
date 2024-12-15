@@ -8,7 +8,6 @@ sign_up_btn.addEventListener("click", () => {
 
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
-  window.location.href = "index.html";
 });
 
 
@@ -78,5 +77,10 @@ signupBtn.addEventListener("click", (e) => {
 })
 
 function login() {
-  location.reload();
+  if (popupBtn.textContent == "Done") {
+    console.log("done");
+    window.location.href = "index.html";
+  } else {
+    location.reload();
+  }
 }
