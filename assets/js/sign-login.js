@@ -4,12 +4,11 @@ const container = document.querySelector(".container");
 
 sign_up_btn.addEventListener("click", () => {
   container.classList.add("sign-up-mode");
-  console.log("asdasd")
 });
 
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
-  console.log("asdasd")
+  window.location.href = "index.html";
 });
 
 
